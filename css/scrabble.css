@@ -1,0 +1,52 @@
+/* Name: Tashia Boddu
+Email: Tashia_Boddu@student.uml.edu
+This project was created on December 10th, 2022
+to implement the game scrabble for GUI 1 */
+
+h1 {
+  font-size: 50px;
+  margin-left: 10px;
+}
+.instruction {
+  margin-left: 600px;
+}
+p {
+  margin-left: 10px;
+}
+
+.scores {
+  display: flex;
+
+  margin-bottom: 10px;
+}
+
+#word {
+  margin-left: 450px;
+}
+#score {
+  margin-left: 50px;
+}
+#totalScore {
+  margin-left: 50px;
+}
+#numTiles {
+  margin-left: 50px;
+}
+
+#Board {
+  display: flex;
+  margin-left: 450px;
+}
+
+#rack {
+  background-image: url("../images/tileHolder.png");
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
+  margin-left: 400px;
+  margin-top: 20px;
+}
+
+.buttons {
+  margin-top: 10px;
+  margin-left: 450px;
+}
