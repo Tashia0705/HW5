@@ -1,0 +1,51 @@
+<!-- Name: Tashia Boddu
+Email: Tashia_Boddu@student.uml.edu
+This project was created on December 10th, 2022
+to implement the game scrabble for GUI 1 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- CSS links -->
+  <link rel="stylesheet" href="css/scrabble.css"/>
+  <!-- JQuery Links -->
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <title>Scrabble</title>
+</head>
+<body>
+  <h1>Play <br> Scrabble. </h1>
+  <p>Drag and drop the tiles to score</p>
+  <!-- Keeps score of player as well as what word gets used -->
+  <div class="scores">
+    <div id="word"> Word:</div>
+    <div id="score"> Score:</div>
+    <div id="totalScore"> Totoal Score:</div>
+    <div id="numTiles"> Tiles Left:</div>
+  </div>
+
+  <!-- Rack and board for tiles -->
+  <div id="Board"></div>
+  <!-- Instructions for how to play -->
+  <div class="instruction">
+    <p>Word must have no gaps in between</p>
+    <p>Word must contain at least 2 letters</p>
+    <p>Word must be a part of the dictonary</p>
+  </div>
+
+  <div id="rack"></div>
+
+  <!-- Buttons to go to the next word or new game -->
+  <div class="buttons">
+    <button id="nextWord" onclick="nextWord()"> Next Word </button>
+    <button id="startOver">Start Over</button>
+  </div>
+
+  <script src="js/scrabble.js"></script>
+
+</body>
+</html>
